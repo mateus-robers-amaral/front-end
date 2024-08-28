@@ -63,12 +63,16 @@ body {
     flex-direction: column;
     width: 75%;
     align-items: left;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
+.login label {
+    margin-bottom: 8px;
+}
+
 .user {
-    border: 1px solid black;
+    border: none;
     border-radius: 5px;
     margin-bottom: 15px;
     height: 30px;
@@ -77,7 +81,7 @@ body {
 }
 
 .senha {
-    border: 1px solid black;
+    border: none;
     border-radius: 5px;
     height: 30px;
     background: #f3ece2;
@@ -104,6 +108,7 @@ body {
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .cadastro {
