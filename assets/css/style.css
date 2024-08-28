@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 30px;
+    margin: 0;
+    background: #444444;
+}
+
+.box-image {
+    display: flex;
+    height: 70%;
+    width: 50%;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.vasco {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;
+    background: #c2bcb4;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .2);
+    align-items: center;
+}
+
+.text-primary {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 50px;
+    letter-spacing: -2px;
+}
+
+.text-secondary {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: left;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.user {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 30px;
+    background: #f3ece2;
+    padding-left: 12px;
+}
+
+.senha {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    background: #f3ece2;
+    padding-left: 12px;
+}
+
+.esqueceu-a-senha {
+    display: flex;
+    align-self: end;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.botao {
+    height: 40px;
+    width: 220px;
+    background: #b71515;
+    color: #f3ece2;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cadastro {
+    font-size: 15px;
+}
+
+.cadastro a {
+    font-weight: 600;
+    color: black;
+}
+
+@media screen and (max-width:768px){
+    .box-image {
+        display: none;
+    }
+}
