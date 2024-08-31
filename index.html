@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/images/CruzDeMalta.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vasco - Sócio Torcedor</title>
 </head>
 <body>
-    <div class="box-image">
-        <img src="assets/images/vascowall.png" class="vasco" alt="Bandeira do Clube de Regatas Vasco da Gama estampado 
-        com a cruz de malta centralizada e estrelas no canto superior esquerdo.">
-    </div>
-    <div class="box-text">
-        <span class="text-primary">Vasco da Gama</span>
-        <span class="text-secondary">O Gigante da Colina!</span>
-        <form class="login">
-            <label>Usuário</label>
-            <input type="text" class="user" placeholder="Digite seu usuário">
-
-            <label>Senha</label>
-            <input type="password" class="senha" placeholder="Digite sua senha">
+    
+    <div class="container">
+        <form action="">
+            <h1>Sócio Gigante</h1>
+            <h2>Login</h2>
+            <div class="input-box">
+                <input type="text" placeholder="Usuário" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha">
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="lembrar-login">
+                <label><input type="checkbox"> Lembrar meu login</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <button type="submit" class="botao">Entrar</button>
+            <div class="criar-conta">
+                <label>É novo por aqui?</label>
+                <a href="#">Crie sua conta</a>
+            </div>
         </form>
-        <a href="" class="esqueceu-a-senha">Esqueceu sua senha?</a>
-
-        <!-- <div class="icons">
-            <img src="assets/images/google.png" alt="login pelo google">
-            <img src="assets/images/facebook.png" alt="login pelo facebook">
-        </div> -->
-        <button type="submit" class="botao">Entrar</button>
-        <div class="cadastro">
-            <span>Novo por aqui?</span>
-            <a href="">Cadastre-se</a>
-        </div>
     </div>
 </body>
 </html>
